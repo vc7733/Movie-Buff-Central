@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Buff Central - Avengers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Welcome to Avengers Hub</h1>
+    <p>Explore the world of Avengers and learn more about your favorite characters.</p>
+    <div class="posters">
+      <img src="avengers.jpg" alt="Avengers Poster" />
+    </div>
+  </section>
+
+  <!-- Character Bios Section -->
+  <section id="bios">
+    <h2>Meet the Avengers</h2>
+    <div class="character-container">
+      <div class="character">
+        <img src="captain america.jpg" alt="Captain America" />
+        <h3>Captain America</h3>
+        <p>Steve Rogers, the first Avenger, stands for justice and freedom.</p>
+      </div>
+      <div class="character">
+        <img src="iron man.jpg" alt="Iron Man" />
+        <h3>Iron Man</h3>
+        <p>Tony Stark, the genius, billionaire, and the man behind the iron suit.</p>
+      </div>
+      <div class="character">
+        <img src="black panther.jpg" alt="Black Panther" />
+        <h3>Black Panther</h3>
+        <p>T'Challa, the King of Wakanda, fights to protect his kingdom.</p>
+      </div>
+      <div class="character">
+        <img src="hulk.jpg" alt="Hulk" />
+        <h3>Hulk</h3>
+        <p>Bruce Banner, the brilliant scientist with a powerful alter ego.</p>
+      </div>
+      <div class="character">
+        <img src="wanda.jpg" alt="Wanda Maximoff" />
+        <h3>Wanda Maximoff</h3>
+        <p>Wanda, the Scarlet Witch, wields immense magical powers.</p>
+      </div>
+      <div class="character">
+        <img src="vision.jpg" alt="Vision" />
+        <h3>Vision</h3>
+        <p>Vision, created by Stark and Banner, holds the Mind Stone.</p>
+      </div>
+      <div class="character">
+        <img src="spiderman-2002-q0.jpg" alt="Spiderman">
+        <h3>Spiderman</h3>
+        <p>Peter Parker, the friendly neighborhood Spiderman, uses his web-slinging powers to fight crime.</p>
+      </div>
+  
+      <!-- Black Widow -->
+      <div class="character">
+        <img src="black widow.jpg" alt="Black Widow">
+        <h3>Black Widow</h3>
+        <p>Natasha Romanoff, the Black Widow, is a skilled assassin and a core member of the Avengers.</p>
+      </div>
+      <div class="character">
+        <h3>Loki</h3>
+        <img src="loki.png" alt="Loki" />
+        <p>The God of Mischief, Loki is Thor's brother and often finds himself at odds with the Avengers.</p>
+    </div>
+    <div class="character">
+        <h3>Winter Soldier</h3>
+        <img src="wintersoldier.jpg" alt="Winter Soldier" />
+        <p>Bucky Barnes, once Captain America's best friend, becomes the Winter Soldier, a brainwashed assassin.</p>
+    </div>
+    </div>
+  </section>
+
+  <!-- Movie Trailer Section -->
+  <section id="trailers">
+    <h2>Watch Avengers Trailers</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eOrNdBpGMv8" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <!-- Quote of the Day Section -->
+  <section id="quote-of-the-day">
+    <h2>Quote of the Day</h2>
+    <p id="quote"></p>
+  </section>
+
+  <!-- Trivia Quiz Section -->
+  <section id="trivia">
+    <h2>Avengers Trivia Quiz</h2>
+    <div id="quiz-container">
+        <div id="quiz-question">Question will appear here</div>
+        <div id="quiz-options">
+            <button onclick="checkAnswer(0)">Option 1</button>
+            <button onclick="checkAnswer(1)">Option 2</button>
+            <button onclick="checkAnswer(2)">Option 3</button>
+            <button onclick="checkAnswer(3)">Option 4</button>
+        </div>
+        <div id="quiz-feedback"></div>
+    </div>
+    <button onclick="nextQuestion()">Next Question</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
